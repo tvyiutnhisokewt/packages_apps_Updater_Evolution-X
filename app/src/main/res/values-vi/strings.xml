@@ -44,7 +44,7 @@
         • adb enable-verity\n
         • adb reboot
         ]]></string>
-    <string name="dialog_scratch_mounted_title">Không thể cài đặt cập nhật khi OverlayFS được gắn kết</string>
+    <string name="dialog_scratch_mounted_title">Không thể cài đặt cập nhật khi OverlayFS được tích hợp</string>
     <string name="reboot">Khởi động lại</string>
     <string name="menu_refresh">Làm mới</string>
     <string name="menu_preferences">Tùy chỉnh</string>
