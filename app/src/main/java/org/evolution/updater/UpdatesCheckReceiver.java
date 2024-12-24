@@ -128,7 +128,7 @@ public class UpdatesCheckReceiver extends BroadcastReceiver {
         NotificationChannel notificationChannel = new NotificationChannel(
                 NEW_UPDATES_NOTIFICATION_CHANNEL,
                 context.getString(R.string.new_updates_channel_title),
-                NotificationManager.IMPORTANCE_LOW);
+                NotificationManager.IMPORTANCE_DEFAULT);
         NotificationCompat.Builder notificationBuilder = new NotificationCompat.Builder(context,
                 NEW_UPDATES_NOTIFICATION_CHANNEL);
         notificationBuilder.setSmallIcon(R.drawable.ic_system_update);
